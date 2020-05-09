@@ -7,6 +7,7 @@ public class SerializedObject implements Serializable {
 
     public SerializedObject(int n) {
         this.n = n;
+        System.out.println("Constructor called");
     }
 
     public int getN() {
